@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Local Driver Suite]" parallel="tests">
+  <test name="HomePageTests(failed)" parallel="tests">
+    <parameter name="mode" value="local"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="windows"/>
+    <classes>
+      <class name="testPackage.HomePageTests">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="testVerifyHomePageLoadsCorrectly"/>
+        </methods>
+      </class> <!-- testPackage.HomePageTests -->
+    </classes>
+  </test> <!-- HomePageTests(failed) -->
+  <test name="RegisterTests(failed)" parallel="tests">
+    <parameter name="mode" value="local"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="windows"/>
+    <classes>
+      <class name="testPackage.RegisterTests">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="testVerifyAllTheMandatoryMessages"/>
+        </methods>
+      </class> <!-- testPackage.RegisterTests -->
+    </classes>
+  </test> <!-- RegisterTests(failed) -->
+</suite> <!-- Failed suite [Local Driver Suite] -->

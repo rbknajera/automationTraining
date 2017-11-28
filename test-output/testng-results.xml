@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Local Driver Suite" duration-ms="9445" started-at="2017-09-08T19:25:29Z" finished-at="2017-09-08T19:25:38Z">
+    <groups>
+    </groups>
+    <test name="HomePageTests" duration-ms="6556" started-at="2017-09-08T19:25:29Z" finished-at="2017-09-08T19:25:35Z">
+      <class name="testPackage.HomePageTests">
+        <test-method status="PASS" signature="setUpTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testPackage.HomePageTests@1a968a59]" name="setUpTest" is-config="true" duration-ms="4139" started-at="2017-09-08T13:25:29Z" finished-at="2017-09-08T13:25:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="testVerifyHomePageLoadsCorrectly()[pri:0, instance:testPackage.HomePageTests@1a968a59]" name="testVerifyHomePageLoadsCorrectly" duration-ms="518" started-at="2017-09-08T13:25:33Z" finished-at="2017-09-08T13:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyHomePageLoadsCorrectly -->
+        <test-method status="PASS" signature="testVerifyHomePageLoadsCorrectlyFromTabMenu()[pri:0, instance:testPackage.HomePageTests@1a968a59]" name="testVerifyHomePageLoadsCorrectlyFromTabMenu" duration-ms="323" started-at="2017-09-08T13:25:34Z" finished-at="2017-09-08T13:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyHomePageLoadsCorrectlyFromTabMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testPackage.HomePageTests@1a968a59]" name="tearDown" is-config="true" duration-ms="1569" started-at="2017-09-08T13:25:34Z" finished-at="2017-09-08T13:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.HomePageTests -->
+    </test> <!-- HomePageTests -->
+    <test name="LoginTests" duration-ms="8988" started-at="2017-09-08T19:25:29Z" finished-at="2017-09-08T19:25:38Z">
+      <class name="testPackage.LoginTests">
+        <test-method status="PASS" signature="setUpTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testPackage.LoginTests@28d25987]" name="setUpTest" is-config="true" duration-ms="3242" started-at="2017-09-08T13:25:29Z" finished-at="2017-09-08T13:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="testVerifyTheLoginPageIsDisplayedCorrectly()[pri:0, instance:testPackage.LoginTests@28d25987]" name="testVerifyTheLoginPageIsDisplayedCorrectly" duration-ms="2240" started-at="2017-09-08T13:25:32Z" finished-at="2017-09-08T13:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTheLoginPageIsDisplayedCorrectly -->
+        <test-method status="PASS" signature="testVerifyTheUserIsAbleToLoginWhenSendingValidCredentials()[pri:0, instance:testPackage.LoginTests@28d25987]" name="testVerifyTheUserIsAbleToLoginWhenSendingValidCredentials" duration-ms="1376" started-at="2017-09-08T13:25:34Z" finished-at="2017-09-08T13:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTheUserIsAbleToLoginWhenSendingValidCredentials -->
+        <test-method status="PASS" signature="testVerifyTheUserIsNotAbleToLoginWhenSendingInvalidCredentials()[pri:0, instance:testPackage.LoginTests@28d25987]" name="testVerifyTheUserIsNotAbleToLoginWhenSendingInvalidCredentials" duration-ms="1334" started-at="2017-09-08T13:25:36Z" finished-at="2017-09-08T13:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTheUserIsNotAbleToLoginWhenSendingInvalidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testPackage.LoginTests@28d25987]" name="tearDown" is-config="true" duration-ms="782" started-at="2017-09-08T13:25:37Z" finished-at="2017-09-08T13:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.LoginTests -->
+    </test> <!-- LoginTests -->
+    <test name="RegisterTests" duration-ms="9445" started-at="2017-09-08T19:25:29Z" finished-at="2017-09-08T19:25:38Z">
+      <class name="testPackage.RegisterTests">
+        <test-method status="PASS" signature="setUpTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testPackage.RegisterTests@7d9d1a19]" name="setUpTest" is-config="true" duration-ms="4130" started-at="2017-09-08T13:25:29Z" finished-at="2017-09-08T13:25:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="testVerifyAllTheMandatoryMessages()[pri:0, instance:testPackage.RegisterTests@7d9d1a19]" name="testVerifyAllTheMandatoryMessages" duration-ms="1872" started-at="2017-09-08T13:25:33Z" finished-at="2017-09-08T13:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyAllTheMandatoryMessages -->
+        <test-method status="PASS" signature="testVerifyErrorDisplayedWhenPasswordDoesNotMatchWithConfirmPassword()[pri:0, instance:testPackage.RegisterTests@7d9d1a19]" name="testVerifyErrorDisplayedWhenPasswordDoesNotMatchWithConfirmPassword" duration-ms="766" started-at="2017-09-08T13:25:35Z" finished-at="2017-09-08T13:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorDisplayedWhenPasswordDoesNotMatchWithConfirmPassword -->
+        <test-method status="PASS" signature="testVerifyErrorDisplayedWhenUsingExistingUserName()[pri:0, instance:testPackage.RegisterTests@7d9d1a19]" name="testVerifyErrorDisplayedWhenUsingExistingUserName" duration-ms="982" started-at="2017-09-08T13:25:36Z" finished-at="2017-09-08T13:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyErrorDisplayedWhenUsingExistingUserName -->
+        <test-method status="PASS" signature="testVerifyTheRegisterPageIsDisplayedCorrectly()[pri:0, instance:testPackage.RegisterTests@7d9d1a19]" name="testVerifyTheRegisterPageIsDisplayedCorrectly" duration-ms="236" started-at="2017-09-08T13:25:37Z" finished-at="2017-09-08T13:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTheRegisterPageIsDisplayedCorrectly -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testPackage.RegisterTests@7d9d1a19]" name="tearDown" is-config="true" duration-ms="1452" started-at="2017-09-08T13:25:37Z" finished-at="2017-09-08T13:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.RegisterTests -->
+    </test> <!-- RegisterTests -->
+  </suite> <!-- Local Driver Suite -->
+</testng-results>

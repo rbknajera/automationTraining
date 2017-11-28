@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Local Driver Suite" parallel="tests">
+	<test name="LoginTests">
+		<parameter name="browser" value="chrome" />
+		<parameter name="platform" value="windows" />
+		<parameter name="mode" value="local" />
+		<classes>
+			<class name="testPackage.LoginTests" />
+		</classes>
+	</test>
+	<test name="RegisterTests">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="windows" />
+		<parameter name="mode" value="local" />
+		<classes>
+			<class name="testPackage.RegisterTests" />
+		</classes>
+	</test>
+	<test name="HomePageTests">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="windows" />
+		<parameter name="mode" value="local" />
+		<classes>
+			<class name="testPackage.HomePageTests" />
+		</classes>
+	</test>
+</suite>
